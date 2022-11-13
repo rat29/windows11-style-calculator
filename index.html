@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<title>Calculator</title>
+    <link rel="shortcut icon" href="./images/logos/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="./css/style.css">
+	<script src="./js/script.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<div id="calc">
+            <input readonly id="result" value="0" type="text">
+			<div>
+                <button onclick="cClick()">C</button>
+                <button onclick="opeClick(this.innerHTML)">x<sup>n</sup></button>
+                <button onclick="opeClick(this.innerHTML)">mod</button>
+                <button onclick="opeClick(this.innerHTML)">÷</button>
+                <button onclick="numClick(this.innerHTML)">7</button>
+                <button onclick="numClick(this.innerHTML)">8</button>
+                <button onclick="numClick(this.innerHTML)">9</button>
+                <button onclick="opeClick(this.innerHTML)">×</button>
+                <button onclick="numClick(this.innerHTML)">4</button>
+                <button onclick="numClick(this.innerHTML)">5</button>
+                <button onclick="numClick(this.innerHTML)">6</button>
+                <button onclick="opeClick(this.innerHTML)">-</button>
+                <button onclick="numClick(this.innerHTML)">1</button>
+                <button onclick="numClick(this.innerHTML)">2</button>
+                <button onclick="numClick(this.innerHTML)">3</button>
+                <button onclick="opeClick(this.innerHTML)">+</button>
+                <button onclick="numClick(this.innerHTML)">0</button>
+                <button onclick="numClick(this.innerHTML)">.</button>
+                <button onclick="equalClick()">=</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
