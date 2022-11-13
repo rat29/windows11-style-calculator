@@ -33,7 +33,7 @@ div#calc button {
     background-color: #f8f8f8;
     border: solid 1.25px #e0e0e0;
     box-shadow: 0 .75px 1px #c0c0c0;
-    border-radius: 4px;
+    border-radius: 6px;
 }
 div#calc button:hover {
     background-color: #f4f4f4;
